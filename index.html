@@ -1,0 +1,95 @@
+<html>
+<style >
+	
+body{
+	background-color: #75FF33;
+}
+.head{
+	background: #FFACAC;
+}
+.input{
+	border-radius: 4px;
+	background-color: #41BB30 ;
+	align-items: center;	
+}
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #41BB30;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+.boton:hover{
+	font-size: 20px;
+    color: white;
+    background-color: #75FF33;
+  }
+.header{
+	height:  100px;
+	background-color: #3041BB;
+	font-size: 40px;
+	font-family: impact;
+	color:white;
+}
+td{
+	text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #41BB30;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+tr{
+	text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #41BB30;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+</style>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Subneteo</title>
+    </head>
+    <body>
+    	<header class="header" align="center">
+    		Programa de Subneteo 
+    	</header>
+
+        <script src="js/Logica.js"></script>
+
+        <div class="principal" align="center">
+            
+            <h1>Ingresa la IP para subnetear</h1>
+            <form>
+                <input type="text" id="1b" class="input"> . <input type="text" id="2b" class="input"> . <input type="text" id="3b" class="input"> . <input type="text" id="4b" class="input"> <br><br>
+                <p>Indica cuantas subredes deseas </p>
+                <input type="text" id="subr" class="input"><br>
+                <br>
+                <input type="button" onclick="validar()" value="envia" class="boton">
+            </form>
+            
+        </div>
+        
+        
+        <br>
+        <div class="resultados" class="input" align="center">
+            <table id="resultado">
+                <p id="datosss"></p>
+            <table id="resultado">
+                
+            </table>
+            </table>
+            
+        </div>
+        
+    </body>
+</html>
